@@ -83,8 +83,8 @@ input, select, textarea {
 		background-attachment: fixed,						fixed;
 		background-image: url("images/Header.jpg"), url("../../images/bg.jpg");
 		background-position: top left,					center center;
-		background-repeat: repeat,						none;
-		background-size: 100%;
+		background-repeat: no-repeat,						none;
+		background-size:     ;
 	}
 
 	html.is-preload *, html.is-preload *:before, html.is-preload *:after {
@@ -2789,6 +2789,7 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 	}
+
 
 		#header:after {
 			content: '';
